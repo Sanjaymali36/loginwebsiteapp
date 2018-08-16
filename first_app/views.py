@@ -74,6 +74,6 @@ def image(request):
 
 def home(request):
     documents = Document.objects.all()
-    return render(request, 'core/home.html', { 'documents': documents })
+    return render(request, 'core/home.html', {'documents': documents })
 
 
